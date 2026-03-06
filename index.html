@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev AF</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- ── NAVBAR ─────────────────────── -->
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <span class="logo-icon">&#11242;</span>
+      <span class="logo-text">AF</span>
+    </div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="navbar__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Skill</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="navbar__cta">
+      <a href="#" class="btn-primary">Hire Me</a>
+    </div>
+  </nav>
+
+    <!-- ── HERO SECTION ────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <span class="hero__badge">Available for Work</span>
+      <h1 class="hero__title">
+        Hai, saya<br> <span class="highlight">Andre Firmansyah</span><br>
+        Web Developer
+      </h1>
+      <p class="hero__desc">
+        Saya membangun website yang cepat, responsif, dan tampak profesional.
+        <br>Mari lihat website saya.
+      </p>
+      <div class="hero__actions">
+        <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+        <a href="cv.html" class="btn-secondary">Lihat CV</a>
+        <a href="#contact" class="btn-primary">Hubungi Saya</a>
+    </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS SECTION ──────────────── -->
+  <section class="skills" id="about">
+    <div class="container">
+      <h2 class="section-title">Keahlian Saya</h2>
+      <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128195;</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, aksesibilitas, dan struktur dokumen yang baik.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#127912;</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animasi, dan responsive design untuk semua layar.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#9889;</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, Fetch API, dan logika interaktif modern.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128279;</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, branching, dan kolaborasi tim secara profesional.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#9881;</div>
+          <h3>React</h3>
+          <p>Component-based development dengan hooks dan state management.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128640;</div>
+          <h3>Performance</h3>
+          <p>Optimasi loading, image compression, dan Core Web Vitals.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PORTFOLIO SECTION ──────────────── -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Portfolio Saya</h2>
+      <p class="section-subtitle">Proyek-proyek yang telah saya buat</p>
+
+      <div class="portfolio__grid">
+        <div class="portfolio-card">
+          <div class="portfolio-card__image">
+            <img src="assets/foto1.png" alt="Landing Page Responsif" class="portfolio-card__img">
+          </div>
+          <h3>CRUD App</h3>
+          <p>Aplikasi pengisian biodata CRUD yang terhubung ke mysql, dengan menggunakan Apache NetBeans.</p>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-card__image">
+            <img src="assets/foto2.png" alt="Landing Page Responsif" class="portfolio-card__img">
+          </div>
+          <h3>Dashboard Admin</h3>
+          <p>Dashboard interaktif dengan CSS Grid dan JavaScript DOM manipulation.</p>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-card__image">
+            <img src="assets/foto3.png" alt="Landing Page Responsif" class="portfolio-card__img">
+          </div>
+          <h3>Desain UI</h3>
+          <p>Prototype aplikasi mobile dengan menggunakan FIGMA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT SECTION ──────────────── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Hubungi Saya</h2>
+      <p class="section-subtitle">Mari berkolaborasi dan ciptakan sesuatu yang luar biasa</p>
+
+      <div class="contact__content">
+        <div class="contact__info">
+          <div class="contact__item">
+            <span class="contact__icon"></span>
+            <h3>Email</h3>
+            <p><a href="mailto:andrefirmansyah197@email.com"><span class="__cf_email__" data-cfemail="c3a2ada7b1a6a5aab1aea2adb0baa2abf2faf483a4aea2aaafeda0acae">andrefirmansyah197@gmail.com</span></a></p>
+          </div>
+
+          <div class="contact__item">
+            <span class="contact__icon"></span>
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/6283165174867">+62 831-6517-4867</a></p>
+          </div>
+
+          <div class="contact__item">
+            <span class="contact__icon"></span>
+            <h3>Github</h3>
+            <p><a href="https://github.com/andre15f">andre15f</a></p>
+          </div>
+
+          <div class="contact__map">
+            <h3>Alamat Saya</h3>
+             <p>Jl. Ampera 9. No 5, 
+              Sumatera Utara, Indonesia</p>
+            <iframe
+              src="https://www.google.com/maps?q=Medan&output=embed">
+            </iframe>
+          </div>
+        </div>
+
+        <form class="contact__form">
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email Anda" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ──────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copy">
+        &copy; 2026 Andre Firmansyah. Dibuat dengan HTML & CSS.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
